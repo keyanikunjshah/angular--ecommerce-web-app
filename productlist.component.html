@@ -1,0 +1,46 @@
+<h2>Product List</h2>
+
+<table class="table">
+
+ <thead class="table-dark">
+
+  <tr>
+
+   <th>Name</th>
+
+   <th>Price</th>
+
+   <th>UnitsInStock</th>
+
+  </tr>
+
+ </thead>
+
+ <tbody>
+
+  <tr *ngFor="let vada of products">
+    <img src="{{vada.imageUrl}}" width="100px">
+
+   <td>{{vada.name}}</td>
+
+   <td>{{vada.unitPrice}}</td>
+
+   <td>{{vada.unitsInStocK}}</td>
+   
+
+  </tr>
+
+ </tbody>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
